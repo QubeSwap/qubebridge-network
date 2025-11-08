@@ -15,7 +15,7 @@
 proxy_app = "tcp://127.0.0.1:26658"
 
 # A custom human readable name for this node
-moniker = ""
+moniker = "genesis-node"
 
 # If this node is many blocks behind the tip of the chain, FastSync
 # allows them to catchup quickly by downloading blocks in parallel
@@ -77,6 +77,7 @@ abci = "socket"
 # so the app can decide if we should keep the connection or not
 filter_peers = false
 
+
 #######################################################################
 ###                 Advanced Configuration Options                  ###
 #######################################################################
@@ -95,16 +96,10 @@ laddr = "tcp://0.0.0.0:26657"
 cors_allowed_origins = []
 
 # A list of methods the client is allowed to use with cross-domain requests
-cors_allowed_methods = ["HEAD", "GET", "POST"]
+cors_allowed_methods = ["HEAD", "GET", "POST", ]
 
 # A list of non simple headers the client is allowed to use with cross-domain requests
-cors_allowed_headers = [
-	"Origin",
-	"Accept",
-	"Content-Type",
-	"X-Requested-With",
-	"X-Server-Time",
-]
+cors_allowed_headers = ["Origin", "Accept", "Content-Type", "X-Requested-With", "X-Server-Time", ]
 
 # TCP or UNIX socket address for the gRPC server to listen on
 # NOTE: This server only supports /broadcast_tx_commit
@@ -141,6 +136,33 @@ max_subscription_clients = 100
 # the estimated # maximum number of broadcast_tx_commit calls per block.
 max_subscriptions_per_client = 5
 
+# Experimental parameter to specify the maximum number of events a node will
+# buffer, per subscription, before returning an error and closing the
+# subscription. Must be set to at least 100, but higher values will accommodate
+# higher event throughput rates (and will use more memory).
+experimental_subscription_buffer_size = 200
+
+# Experimental parameter to specify the maximum number of RPC responses that
+# can be buffered per WebSocket client. If clients cannot read from the
+# WebSocket endpoint fast enough, they will be disconnected, so increasing this
+# parameter may reduce the chances of them being disconnected (but will cause
+# the node to use more memory).
+#
+# Must be at least the same as "experimental_subscription_buffer_size",
+# otherwise connections could be dropped unnecessarily. This value should
+# ideally be somewhat higher than "experimental_subscription_buffer_size" to
+# accommodate non-subscription-related RPC responses.
+experimental_websocket_write_buffer_size = 200
+
+# If a WebSocket client cannot read fast enough, at present we may
+# silently drop events instead of generating an error or disconnecting the
+# client.
+#
+# Enabling this experimental parameter will cause the WebSocket connection to
+# be closed instead if it cannot read fast enough, allowing for greater
+# predictability in subscription behaviour.
+experimental_close_on_slow_client = false
+
 # How long to wait for a tx to be committed during /broadcast_tx_commit.
 # WARNING: Using a value larger than 10s will result in increasing the
 # global HTTP write timeout, which applies to all connections and endpoints.
@@ -154,7 +176,7 @@ max_body_bytes = 1000000
 max_header_bytes = 1048576
 
 # The path to a file containing certificate that is used to create the HTTPS server.
-# Migth be either absolute path or path related to tendermint's config directory.
+# Might be either absolute path or path related to Tendermint's config directory.
 # If the certificate is signed by a certificate authority,
 # the certFile should be the concatenation of the server's certificate, any intermediates,
 # and the CA's certificate.
@@ -163,8 +185,8 @@ max_header_bytes = 1048576
 tls_cert_file = ""
 
 # The path to a file containing matching private key that is used to create the HTTPS server.
-# Migth be either absolute path or path related to tendermint's config directory.
-# NOTE: both tls_cert_file and tls_key_file must be present for Tendermint to create HTTPS server.
+# Might be either absolute path or path related to Tendermint's config directory.
+# NOTE: both tls-cert-file and tls-key-file must be present for Tendermint to create HTTPS server.
 # Otherwise, HTTP server is run.
 tls_key_file = ""
 
@@ -187,10 +209,10 @@ laddr = "tcp://0.0.0.0:26656"
 external_address = ""
 
 # Comma separated list of seed nodes to connect to
-seeds = "88df77679897c1ba44e0b5ce759a914f6b7adb9c@44.235.191.64:26656,04bd28d0603b95877cc28cab84d71ac1e32625b4@44.237.186.221:26656,bd478a9fc986bffa499d3bfb4b6215ddd6c14e72@44.238.11.4:26656,18bad04cde4cdc049a6eff350023cc1fa2f9c074@44.239.112.7:26656"
+seeds = "xxxxxxxxxxxxxxxxxxxxxxxx@44.235.191.64:26656,xxxxxxxxxxxxxxxxxxxxxxxxxxxxx@44.237.186.221:26656,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@44.238.11.4:26656,xxxxxxxxxxxxxxxxxxxxxxxxxxxx@44.239.112.7:26656"
 
 # Comma separated list of nodes to keep persistent connections to
-persistent_peers = "88df77679897c1ba44e0b5ce759a914f6b7adb9c@44.235.191.64:26656,04bd28d0603b95877cc28cab84d71ac1e32625b4@44.237.186.221:26656,bd478a9fc986bffa499d3bfb4b6215ddd6c14e72@44.238.11.4:26656,18bad04cde4cdc049a6eff350023cc1fa2f9c074@44.239.112.7:26656"
+persistent_peers = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@44.235.191.64:26656,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@44.237.186.221:26656,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@44.238.11.4:26656,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@44.239.112.7:26656"
 
 # UPNP port forwarding
 upnp = false
@@ -271,7 +293,7 @@ cache_size = 10000
 keep-invalid-txs-in-cache = false
 
 # Maximum size of a single transaction.
-# NOTE: the max size of a tx transmitted over the network is {max_tx_bytes} + {amino overhead}.
+# NOTE: the max size of a tx transmitted over the network is {max_tx_bytes}.
 max_tx_bytes = 1048576
 
 # Maximum size of a batch of transactions to send to a peer

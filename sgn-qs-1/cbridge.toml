@@ -1,0 +1,146 @@
+[[multichain]]
+chainID = 9030
+name = "Qubetics Mainnet"
+# Private gateway endpoint recommended
+gateway = "https://rpc.qubetics.com"
+blkinterval = 6
+blkdelay = 8
+forwardblkdelay = 5
+cbridge = "0x5806D7e14D334C2bE3Af5626106FC5d1b659E69B"
+ptbridge = "0x77032d02a5f59B720Adf216D2f02A02a634a8955"
+otvault = "0xe7b18935160ca5AEb924C5efd9BF1aC134e56Aef"
+ptbridge2 = "0xDA7AD8aA4D8844eFa6f4936e26A781E1fcD4A58E"
+otvault2 = "0xB4963779f4e07b0920Be08854a79F5A61BF6797c"
+msgbus = "0xCb0dBcb2d2c2d6a9f1dF2539d2caffc64B6a538E"
+wdinbox = "0xa00D45EdB849f4dD2D60D41D02fEBc9B948b908B"
+farmingrewards = "0x00Eee3E7d2F784978D703B477fadA079BBfa4ab0"
+xferagt = "0x7DEe29a1BB9C741D2E4830b9F239B3C3cF2EFB51"
+addgasestimateratio = 0.3
+
+[[multichain]]
+chainID = 1
+name = "Ethereum Mainnet"
+# Private gateway endpoint recommended
+gateway = "https://rpc.mevblocker.io"
+blkinterval = 15
+blkdelay = 8
+forwardblkdelay = 5
+cbridge = "0x2f0c4dF09Fac1aa410C94c4d97aF0186538057e3"
+ptbridge = "0x33C8F2c69DD303F7B11EEC9FA787A886138ea860"
+otvault = "0x82B9fE12f9CB4D27459D822d84566E3ec597Fb28"
+ptbridge2 = "0x9009A3171c92A733943118958312013989660943"
+otvault2 = "0x038ceb34fe309bcA14F92aaDe2E34a955b318f4C"
+msgbus = "0xc5c8338457ABd4Cec6b48031880Bd29520fFc1BB"
+wdinbox = "0x91830A8f5f20ef56804Ce2E7b2d727aD89Cb995f"
+xferagt = "0x74e8084A456ba1515b60ca0AfC45E52F52Fb0f30"
+maxfeepergasgwei = 500
+addgasestimateratio = 0.6
+
+[[multichain]]
+chainID = 56
+name = "BSC"
+# Private gateway endpoint recommended
+gateway = "https://bsc-dataseed.binance.org"
+blkinterval = 15
+blkdelay = 20
+forwardblkdelay = 50
+maxblkdelta = 5000
+cbridge = "0x91830A8f5f20ef56804Ce2E7b2d727aD89Cb995f"
+ptbridge = "0xce57C4e58D11733dc121B2b449a35445f90FC9E2"
+otvault = "0x823efb1B5bcf17Bb5Aee78E2aBA070fC3e58dFC2"
+ptbridge2 = "0xD208c76FD51191FDE545Bf475e80F66A0f11Ac73"
+otvault2 = "0x8F5c3425d8fcf9dE1D9187E945aF1E8C8aD7954a"
+msgbus = "0x25149079faeBBcD78B68d7e8046c0b98e52C75ce"
+wdinbox = "0xCa14ddab67Df3358138c250349E073eA0293a089"
+xferagt = "0x2D8be9db9d33b4977e1A21742531D86958fA6A79"
+addgasgwei = 2
+mingasgwei = 5
+addgasestimateratio = 0.3
+
+[[multichain]]
+chainID = 8453
+name = "Base Mainnet"
+# Private gateway endpoint recommended
+gateway = "https://mainnet.base.org"
+blkinterval = 30
+blkdelay = 15
+forwardblkdelay = 200
+maxblkdelta = 5000
+cbridge = "0x5f196977F3b4ac218b8d03b3D6228b30Da6ceD31"
+ptbridge = "0x2f0c4dF09Fac1aa410C94c4d97aF0186538057e3"
+otvault = "0x022b8945882Fc9326cb151AD2DEEebA8518f1593"
+ptbridge2 = "0x33C8F2c69DD303F7B11EEC9FA787A886138ea860"
+otvault2 = "0x82B9fE12f9CB4D27459D822d84566E3ec597Fb28"
+msgbus = "0x038ceb34fe309bcA14F92aaDe2E34a955b318f4C"
+wdinbox = "0x9009A3171c92A733943118958312013989660943"
+xferagt = "0xc5c8338457ABd4Cec6b48031880Bd29520fFc1BB"
+addgasestimateratio = 0.3
+
+[[multichain]]
+chainID = 137
+name = "Polygon"
+# Private gateway endpoint recommended
+gateway = "https://polygon-rpc.com"
+blkinterval = 15
+blkdelay = 200
+forwardblkdelay = 50
+maxblkdelta = 5000
+cbridge = "0x2f0c4dF09Fac1aa410C94c4d97aF0186538057e3"
+ptbridge = "0x33C8F2c69DD303F7B11EEC9FA787A886138ea860"
+otvault = "0x82B9fE12f9CB4D27459D822d84566E3ec597Fb28"
+ptbridge2 = "0x9009A3171c92A733943118958312013989660943"
+otvault2 = "0x038ceb34fe309bcA14F92aaDe2E34a955b318f4C"
+msgbus = "0xc5c8338457ABd4Cec6b48031880Bd29520fFc1BB"
+wdinbox = "0x91830A8f5f20ef56804Ce2E7b2d727aD89Cb995f"
+xferagt = "0x74e8084A456ba1515b60ca0AfC45E52F52Fb0f30"
+addgasestimateratio = 0.3
+
+[[multichain]]
+chainID = 43114
+name = "Avalanche"
+# Private gateway endpoint recommended
+#gateway = "https://rpc.ankr.com/avalanche"
+gateway = "https://api.avax.network/ext/bc/C/rpc"
+blkinterval = 15
+blkdelay = 15
+forwardblkdelay = 50
+maxblkdelta = 3000
+cbridge = "0x5f196977F3b4ac218b8d03b3D6228b30Da6ceD31"
+ptbridge = "0x2f0c4dF09Fac1aa410C94c4d97aF0186538057e3"
+otvault = "0x022b8945882Fc9326cb151AD2DEEebA8518f1593"
+ptbridge2 = "0x33C8F2c69DD303F7B11EEC9FA787A886138ea860"
+otvault2 = "0x82B9fE12f9CB4D27459D822d84566E3ec597Fb28"
+msgbus = "0x038ceb34fe309bcA14F92aaDe2E34a955b318f4C"
+wdinbox = "0x9009A3171c92A733943118958312013989660943"
+xferagt = "0xc5c8338457ABd4Cec6b48031880Bd29520fFc1BB"
+addgasestimateratio = 0.3
+
+[[multichain]]
+chainID = 1329
+name = "Sei"
+# Private gateway endpoint recommended
+gateway = "https://sei.drpc.org"
+blkinterval = 1
+blkdelay = 1
+forwardblkdelay = 500
+maxblkdelta = 99999
+cbridge = "0x5f196977F3b4ac218b8d03b3D6228b30Da6ceD31"
+ptbridge = "0x2f0c4dF09Fac1aa410C94c4d97aF0186538057e3"
+otvault = "0x022b8945882Fc9326cb151AD2DEEebA8518f1593"
+ptbridge2 = "0x33C8F2c69DD303F7B11EEC9FA787A886138ea860"
+otvault2 = "0x82B9fE12f9CB4D27459D822d84566E3ec597Fb28"
+msgbus = "0x038ceb34fe309bcA14F92aaDe2E34a955b318f4C"
+wdinbox = "0x9009A3171c92A733943118958312013989660943"
+xferagt = "0xc5c8338457ABd4Cec6b48031880Bd29520fFc1BB"
+addgasestimateratio = 0.3
+
+[[multichain]]
+chainID = 12370001
+name = "sui mainnet"
+gateway = "127.0.0.1:7798"
+blkinterval = 15
+blkdelay = 1
+maxblkdelta = 20
+cbridge = "94e7a8e71830d2b34b3edaa195dc24c45d142584f06fa257b73af753d766e690"
+otvault2 = "94e7a8e71830d2b34b3edaa195dc24c45d142584f06fa257b73af753d766e690"
+ptbridge2 = "94e7a8e71830d2b34b3edaa195dc24c45d142584f06fa257b73af753d766e690"
