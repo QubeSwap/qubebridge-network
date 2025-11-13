@@ -7,7 +7,7 @@ trace = false
 [eth]
 block_delay = 8
 chain_id = 9030
-gateway = ""
+gateway = "https://rpc.qubetics.com"
 poll_interval = 15
 signer_keystore = "/home/ubuntu/.sgnd/eth-ks/signer.json"
 signer_passphrase = ""
