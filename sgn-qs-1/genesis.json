@@ -31,7 +31,7 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "sgn12f9f34kfqk9w2n6wtwmygfrr2p4ljh6h6zl83r",
+          "address": "sgn1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -45,7 +45,7 @@
       },
       "balances": [
         {
-          "address": "sgn12f9f34kfqk9w2n6wtwmygfrr2p4ljh6h6zl83r",
+          "address": "sgn1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
           "coins": [
             {
               "denom": "CELR/stake",
@@ -690,12 +690,12 @@
       "syncer": null,
       "validators": [
         {
-          "eth_address": "0x6284896Fc2Dd208EAA1D5cFDec24631f84fe1bb5",
-          "eth_signer": "0xBA70b307186cc52b5988689c10fAeaD1a6458a1a",
-          "sgn_address": "sgn12f9f34kfqk9w2n6wtwmygfrr2p4ljh6h6zl83r",
+          "eth_address": "0x",
+          "eth_signer": "0x",
+          "sgn_address": "sgn1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
           "consensus_pubkey": {
             "@type": "/cosmos.crypto.secp256k1.PubKey",
-            "key": "AzLmKw8xoxXaq4DX53c++6JjYvOuaip8idTjHhGl5BiC"
+            "key": ""
           },
           "status": "BOND_STATUS_BONDED",
           "tokens": "1000000000000",
