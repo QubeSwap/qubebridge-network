@@ -133,14 +133,3 @@ msgbus = "0x038ceb34fe309bcA14F92aaDe2E34a955b318f4C"
 wdinbox = "0x9009A3171c92A733943118958312013989660943"
 xferagt = "0xc5c8338457ABd4Cec6b48031880Bd29520fFc1BB"
 addgasestimateratio = 0.3
-
-[[multichain]]
-chainID = 12370001
-name = "sui mainnet"
-gateway = "127.0.0.1:7798"
-blkinterval = 15
-blkdelay = 1
-maxblkdelta = 20
-cbridge = "94e7a8e71830d2b34b3edaa195dc24c45d142584f06fa257b73af753d766e690"
-otvault2 = "94e7a8e71830d2b34b3edaa195dc24c45d142584f06fa257b73af753d766e690"
-ptbridge2 = "94e7a8e71830d2b34b3edaa195dc24c45d142584f06fa257b73af753d766e690"
