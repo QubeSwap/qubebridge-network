@@ -18,4 +18,7 @@ Feel free to try out QubeBridge and SGN functionalities via the frontend UIs:
 
 ## Contact
 
-If you have identified any security vulnerabilities or have security concerns, please email security@celer.network.
+If you have identified any security vulnerabilities or have security concerns, please email security@mabble.io.
+
+### Codebase
+QubeBridge was made possible based on [cBridge](https://cbridge.celer.network/) from Celer Network.
