@@ -190,7 +190,7 @@ external_address = ""
 seeds = "node-id@IP-address:26656,node-id@IP-address:26656,node-id@IP-address:26656,node-id@IP-address:26656"
 
 # Comma separated list of nodes to keep persistent connections to
-persistent_peers = "node-id@IP-address:26656,node-id@IP-address:26656,node-id@IP-address:26656,node-id@IP-address:26656"
+persistent_peers = "aeb580d25de506548369fbcf0c4e9ecfd902b58f@165.232.157.94:26656,node-id@IP-address:26656,node-id@IP-address:26656,node-id@IP-address:26656"
 
 # UPNP port forwarding
 upnp = false
