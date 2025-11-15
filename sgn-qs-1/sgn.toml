@@ -1,5 +1,5 @@
 help = false
-home = "/home/ubuntu"
+home = "/home/qube"
 log_format = "plain"
 log_level = "info"
 trace = false
