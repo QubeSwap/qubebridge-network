@@ -582,8 +582,8 @@
     "distribution": {
       "params": {
         "community_tax": "0.000000000000000000",
-        "base_proposer_reward": "0.010000000000000000",
-        "bonus_proposer_reward": "0.040000000000000000",
+        "base_proposer_reward": "0.001000000000000000",
+        "bonus_proposer_reward": "0.000500000000000000",
         "claim_cooldown": "60s",
         "reward_contract": {
           "chain_id": 9030,
