@@ -9,7 +9,7 @@ block_delay = 8
 chain_id = 9030
 gateway = "https://rpc.qubetics.com"
 poll_interval = 15
-signer_keystore = "/home/ubuntu/.sgnd/eth-ks/signer.json"
+signer_keystore = "/home/qube/.sgnd/eth-ks/signer.json"
 signer_passphrase = ""
 validator_address = ""
 
