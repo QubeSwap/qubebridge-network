@@ -143,6 +143,14 @@
             "max_fee_amount": "2500000000000000000",
             "max_out_amt": "200000000000000000000"
           },
+		  {
+            "symbol": "XQST",
+            "chain_id": 9030,
+            "addr": "0x6EafACBeCD3B605506e0D4Bd9B5d0C7A9328669b",
+            "decimal": 18,
+            "max_fee_amount": "2500000000000000000",
+            "max_out_amt": "200000000000000000000"
+          },
           {
             "symbol": "USDT",
             "chain_id": 8453,
@@ -191,6 +199,14 @@
             "max_fee_amount": "2500000000000000000",
             "max_out_amt": "200000000000000000000"
           },
+		  {
+            "symbol": "XQST",
+            "chain_id": 56,
+            "addr": "0xEaEeB1EB7a30622C0325943701AC4849aa012838",
+            "decimal": 18,
+            "max_fee_amount": "2500000000000000000",
+            "max_out_amt": "200000000000000000000"
+          },
           {
             "symbol": "USDT",
             "chain_id": 137,
@@ -231,6 +247,14 @@
             "max_fee_amount": "2500000000000000000",
             "max_out_amt": "200000000000000000000"
           },
+		  {
+            "symbol": "XQST",
+            "chain_id": 43114,
+            "addr": "0xce57C4e58D11733dc121B2b449a35445f90FC9E2",
+            "decimal": 18,
+            "max_fee_amount": "2500000000000000000",
+            "max_out_amt": "200000000000000000000"
+          },
           {
             "symbol": "USDT",
             "chain_id": 1329,
@@ -251,6 +275,14 @@
             "symbol": "QST",
             "chain_id": 1329,
             "addr": "0x91830A8f5f20ef56804Ce2E7b2d727aD89Cb995f",
+            "decimal": 18,
+            "max_fee_amount": "2500000000000000000",
+            "max_out_amt": "200000000000000000000"
+          },
+		  {
+            "symbol": "XQST",
+            "chain_id": 1329,
+            "addr": "0xce57C4e58D11733dc121B2b449a35445f90FC9E2",
             "decimal": 18,
             "max_fee_amount": "2500000000000000000",
             "max_out_amt": "200000000000000000000"
