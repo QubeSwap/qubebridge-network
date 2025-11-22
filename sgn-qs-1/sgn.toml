@@ -10,8 +10,8 @@ chain_id = 9030
 gateway = "https://rpc.qubetics.com"
 poll_interval = 15
 signer_keystore = "/home/qube/.sgnd/eth-ks/signer.json"
-signer_passphrase = ""
-validator_address = ""
+signer_passphrase = "YOUR_eth.signer_0x_Address_passphrase"
+validator_address = "YOUR_eth.validator_address_0x_Address_From_Metamask"
 
 [eth.contract_address]
 xqst = "0x6EafACBeCD3B605506e0D4Bd9B5d0C7A9328669b"
@@ -36,9 +36,9 @@ chain_id = "sgn-qs-1"
 gas_adjustment = 3
 keyring_backend = "file"
 node_uri = "tcp://localhost:26657"
-passphrase = ""
+passphrase = "YOUR_sgnd.passphrase_For_Your_Keyring_Address_sgn1xxxxx"
 transactors = []
-validator_account = ""
+validator_account = "YOUR_sgnd.validator_account_Keyring_Address_sgn1xxxxx"
 price_update_url = "https://cbridge-stat.s3.us-west-2.amazonaws.com/prod2/cbridge-price.json"
 liveness_report_endpoint = ""
 
