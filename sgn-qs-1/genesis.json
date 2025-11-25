@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2025-11-22T00:00:00.00000Z",
+  "genesis_time": "2025-11-25T00:00:00.00000Z",
   "chain_id": "sgn-qs-1",
   "initial_height": "1",
   "consensus_params": {
