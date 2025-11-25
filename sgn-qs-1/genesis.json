@@ -35,20 +35,6 @@
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
-        },
-		{
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "sgn1j0z30jgdk56e59hxt6dqlsn5wzwv52s0j6suu6",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
-        },
-		{
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "sgn1eax7glpel8tkx37h8wn8fj8jrhvgn37pznpujf",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
         }
       ]
     },
@@ -66,30 +52,12 @@
               "amount": "10000"
             }
           ]
-        },
-		{
-          "address": "sgn1j0z30jgdk56e59hxt6dqlsn5wzwv52s0j6suu6",
-          "coins": [
-            {
-              "denom": "XQST/stake",
-              "amount": "10000"
-            }
-          ]
-        },
-		{
-          "address": "sgn1eax7glpel8tkx37h8wn8fj8jrhvgn37pznpujf",
-          "coins": [
-            {
-              "denom": "XQST/stake",
-              "amount": "10000"
-            }
-          ]
         }
       ],
       "supply": [
         {
           "denom": "XQST/stake",
-          "amount": "30000"
+          "amount": "10000"
         }
       ],
       "denom_metadata": []
@@ -759,34 +727,6 @@
           "consensus_pubkey": {
             "@type": "/cosmos.crypto.ed25519.PubKey",
             "key": "n7RM19t4BWogUZmNPs0XiorlVlhYWmpwkc/I0XqhG3Q="
-          },
-          "status": "BOND_STATUS_BONDED",
-          "tokens": "1000000000000",
-          "delegator_shares": "1000000000000",
-          "commission_rate": "0",
-          "description": null
-        },
-		{
-          "eth_address": "0x0000000000000000000000000000000000000000",
-          "eth_signer": "0x5a9908c757B2695Fda6b99bf19c5c3233F91D797",
-          "sgn_address": "sgn1j0z30jgdk56e59hxt6dqlsn5wzwv52s0j6suu6",
-          "consensus_pubkey": {
-            "@type": "/cosmos.crypto.ed25519.PubKey",
-            "key": "u2iQvGRSmdav/0KRPdpahCK6Rs/Qcu8zg/S/hBxMt7Y="
-          },
-          "status": "BOND_STATUS_BONDED",
-          "tokens": "1000000000000",
-          "delegator_shares": "1000000000000",
-          "commission_rate": "0",
-          "description": null
-        },
-		{
-          "eth_address": "0x0000000000000000000000000000000000000000",
-          "eth_signer": "0x51198B1ED455845740064d8FAbbdFDC06A108E99",
-          "sgn_address": "sgn1eax7glpel8tkx37h8wn8fj8jrhvgn37pznpujf",
-          "consensus_pubkey": {
-            "@type": "/cosmos.crypto.ed25519.PubKey",
-            "key": "NN2Xdf2EoaPmMfuMC5TYnu+/+uIcaKAVSwFSrpgE6vg="
           },
           "status": "BOND_STATUS_BONDED",
           "tokens": "1000000000000",
