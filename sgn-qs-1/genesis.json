@@ -754,11 +754,11 @@
       "validators": [
         {
           "eth_address": "0x0000000000000000000000000000000000000000",
-          "eth_signer": "0x",
-          "sgn_address": "sgn1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "eth_signer": "0x71eDDd47428Ee12cBa41Bc1225a8Cf3A26f22d2d",
+          "sgn_address": "sgn1rd5xxfr9day8a7s0xwk7vwt5y6t6hcjgx7jpm4",
           "consensus_pubkey": {
             "@type": "/cosmos.crypto.ed25519.PubKey",
-            "key": ""
+            "key": "n7RM19t4BWogUZmNPs0XiorlVlhYWmpwkc/I0XqhG3Q="
           },
           "status": "BOND_STATUS_BONDED",
           "tokens": "1000000000000",
