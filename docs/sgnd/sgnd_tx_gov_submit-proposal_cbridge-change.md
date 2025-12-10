@@ -1,6 +1,6 @@
-## sgnd tx gov submit-proposal cbridge-change
+## sgnd tx gov submit-proposal qubebridge-change
 
-Submit a cbridge config change proposal
+Submit a qubebridge config change proposal
 
 ### Synopsis
 
@@ -8,7 +8,7 @@ Submit a cbridge config change proposal
 proposal file is path to json like below
 {
 	"title": "QubeBridge config Change",
-	"description": "Update cbridge param to v1.1",
+	"description": "Update qubebridge param to v1.1",
 	"cbr_config": {
 		"lp_fee_perc": 80,
 		"assets": [{}],
@@ -19,7 +19,7 @@ proposal file is path to json like below
 
 
 ```
-sgnd tx gov submit-proposal cbridge-change [proposal-file] [flags]
+sgnd tx gov submit-proposal qubebridge-change [proposal-file] [flags]
 ```
 
 ### Options
@@ -35,7 +35,7 @@ sgnd tx gov submit-proposal cbridge-change [proposal-file] [flags]
       --gas-adjustment float     adjustment factor to be multiplied against the estimate returned by the tx simulation; if the gas limit is set manually this flag is ignored  (default 1)
       --gas-prices string        Gas prices in decimal format to determine the transaction fee (e.g. 0.1uatom)
       --generate-only            Build an unsigned transaction and write it to STDOUT (when enabled, the local Keybase is not accessible)
-  -h, --help                     help for cbridge-change
+  -h, --help                     help for qubebridge-change
       --keyring-backend string   Select keyring's backend (os|file|kwallet|pass|test|memory) (default "os")
       --keyring-dir string       The client Keyring directory; if omitted, the default 'home' directory will be used
       --ledger                   Use a connected Ledger device

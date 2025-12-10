@@ -1,6 +1,6 @@
 ## sgnd ops bridge submit-relay
 
-Submit cbridge relay using source transferId
+Submit qubebridge relay using source transferId
 
 ### Synopsis
 

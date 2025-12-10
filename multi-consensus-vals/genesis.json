@@ -94,7 +94,7 @@
       ],
       "denom_metadata": []
     },
-    "cbridge": {
+    "qubebridge": {
       "params": {
         "signer_update_duration": "86400s",
         "sign_again_cool_down_duration": "600s"

@@ -7,14 +7,14 @@ Please refer to the [instructions](./docs/) to see how to [run a validator](./do
 ## Current networks and configs
 
 - **Partner Testnet (Paused)**: [sgn-partnernet-1000](./sgn-partnernet-1000/)
-- **Mainnet**: [sgn-qs-1](./sgn-qs-1/)
+- **Mainnet**: [sgn-sei-1](./sgn-sei-1/)
 
 ## Frontend interfaces
 
 Feel free to try out QubeBridge and SGN functionalities via the frontend UIs:
 
-- Testnet: [QubeBridge](https://cbridge-partner-testnet.celer.network/), [SGN staking](https://sgn-partner-testnet.celer.network/)
-- Mainnet: [QubeBridge](https://cbridge.celer.network/), [SGN staking](https://sgn.celer.network/)
+- Testnet: [QubeBridge](https://bridge-partner-testnet.qubeswap.com/), [SGN staking](https://sgn-partner-testnet.qubeswap.com/)
+- Mainnet: [QubeBridge](https://bridge.qubeswap.com/), [SGN staking](https://sgn.qubeswap.com/)
 
 ## Contact
 

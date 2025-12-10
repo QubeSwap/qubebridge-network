@@ -5,21 +5,21 @@ log_level = "info"
 trace = false
 
 [eth]
-block_delay = 8
-chain_id = 9030
-gateway = "https://rpc.qubetics.com"
-poll_interval = 15
+block_delay = 1
+chain_id = 1329
+gateway = "https://sei.drpc.org"
+poll_interval = 1
 signer_keystore = "/home/qube/.sgnd/eth-ks/signer.json"
 signer_passphrase = "YOUR_eth.signer_0x_Address_passphrase"
 validator_address = "YOUR_eth.validator_address_0x_Address_From_Metamask"
 
 [eth.contract_address]
-xqst = "0x6EafACBeCD3B605506e0D4Bd9B5d0C7A9328669b"
-staking = "0x1705a771B1dBaeC22beF7efE8e196642619A3faf"
-sgn = "0x48E81F6f4070965365C48C68C1420027bD7B898A"
-staking_reward = "0x979F5fBA55d720D900fff3D529ff4ea6EcB5fb96"
-govern = "0x31Bf83c82ab57252236aa06D474B178CA1133159"
-viewer = "0x98EC36917AF459C8d5E8c2E532FAf2C011c4797f"
+xqst = "0x"
+staking = "0x"
+sgn = "0x"
+staking_reward = "0x"
+govern = "0x"
+viewer = "0x"
 
 [eth.check_interval]
 validator_notice = 3
@@ -32,7 +32,7 @@ level = "debug"
 
 [sgnd]
 base_gas_price = 0
-chain_id = "sgn-qs-1"
+chain_id = "sgn-sei-1"
 gas_adjustment = 3
 keyring_backend = "file"
 node_uri = "tcp://localhost:26657"
@@ -44,6 +44,6 @@ liveness_report_endpoint = ""
 
 [sgnd.check_interval]
 verifier = 10
-cbridge = 10
+qubebridge = 10
 slash = 60
 cbr_price = 300

@@ -12,11 +12,11 @@ $ <appd> gov submit-proposal farming-batch-adjust-reward <path/to/proposal.json>
 
 Where proposal.json contains:
 {
-  "title": "cbridge-DAI/1 reward adjustment",
-  "description": "Add DAI reward for cbridge-DAI/1 and adjust CELR reward",
+  "title": "qubebridge-DAI/1 reward adjustment",
+  "description": "Add DAI reward for qubebridge-DAI/1 and adjust CELR reward",
   "adjust_reward_infos": [
     {
-      "pool_name": "cbridge-DAI/1",
+      "pool_name": "qubebridge-DAI/1",
       "reward_adjustment_inputs": [
         {
           "add_amount": {

@@ -12,11 +12,11 @@ $ <appd> gov submit-proposal farming-batch-add-pool <path/to/proposal.json> --fr
 
 Where proposal.json contains:
 {
-  "title": "Batch Add cbridge-DAI/1 pool",
+  "title": "Batch Add qubebridge-DAI/1 pool",
   "description": "batch add a CBridge farming pool for DAI on Ethereum",
   "add_pool_infos": [
     {
-      "pool_name": "cbridge-DAI/1",
+      "pool_name": "qubebridge-DAI/1",
       "stake_token": {
         "chain_id": 1,
         "symbol": "CB-DAI",

@@ -1,0 +1,135 @@
+[[multichain]]
+chainID = 1329
+name = "Sei"
+# Private gateway endpoint recommended
+gateway = "https://sei.drpc.org"
+blkinterval = 1
+blkdelay = 1
+forwardblkdelay = 5
+qubebridge = "0x"
+ptbridge = "0x"
+otvault = "0x"
+ptbridge2 = "0x"
+otvault2 = "0x"
+msgbus = "0x"
+wdinbox = "0x"
+farmingrewards = "0x"
+xferagt = "0x"
+addgasestimateratio = 0.3
+
+[[multichain]]
+chainID = 1
+name = "Ethereum Mainnet"
+# Private gateway endpoint recommended
+gateway = "https://rpc.mevblocker.io"
+blkinterval = 15
+blkdelay = 8
+forwardblkdelay = 5
+qubebridge = "0x"
+ptbridge = "0x"
+otvault = "0x"
+ptbridge2 = "0x"
+otvault2 = "0x"
+msgbus = "0x"
+wdinbox = "0x"
+xferagt = "0x"
+maxfeepergasgwei = 500
+addgasestimateratio = 0.6
+
+[[multichain]]
+chainID = 9030
+name = "Qubetics Mainnet"
+# Private gateway endpoint recommended
+gateway = "https://rpc.qubetics.com"
+blkinterval = 5
+blkdelay = 6
+forwardblkdelay = 500
+maxblkdelta = 99999
+qubebridge = "0x"
+ptbridge = "0x"
+otvault = "0x"
+ptbridge2 = "0x"
+otvault2 = "0x"
+msgbus = "0x"
+wdinbox = "0x"
+xferagt = "0x"
+addgasestimateratio = 0.3
+
+[[multichain]]
+chainID = 56
+name = "BSC"
+# Private gateway endpoint recommended
+gateway = "https://bsc-dataseed.binance.org"
+blkinterval = 15
+blkdelay = 20
+forwardblkdelay = 50
+maxblkdelta = 5000
+qubebridge = "0x"
+ptbridge = "0x"
+otvault = "0x"
+ptbridge2 = "0x"
+otvault2 = "0x"
+msgbus = "0x"
+wdinbox = "0x"
+xferagt = "0x"
+addgasgwei = 2
+mingasgwei = 5
+addgasestimateratio = 0.3
+
+[[multichain]]
+chainID = 8453
+name = "Base Mainnet"
+# Private gateway endpoint recommended
+gateway = "https://mainnet.base.org"
+blkinterval = 30
+blkdelay = 15
+forwardblkdelay = 200
+maxblkdelta = 5000
+qubebridge = "0x"
+ptbridge = "0x"
+otvault = "0x"
+ptbridge2 = "0x"
+otvault2 = "0x"
+msgbus = "0x"
+wdinbox = "0x"
+xferagt = "0x"
+addgasestimateratio = 0.3
+
+[[multichain]]
+chainID = 137
+name = "Polygon"
+# Private gateway endpoint recommended
+gateway = "https://polygon-rpc.com"
+blkinterval = 15
+blkdelay = 200
+forwardblkdelay = 50
+maxblkdelta = 5000
+qubebridge = "0x"
+ptbridge = "0x"
+otvault = "0x"
+ptbridge2 = "0x"
+otvault2 = "0x"
+msgbus = "0x"
+wdinbox = "0x"
+xferagt = "0x"
+addgasestimateratio = 0.3
+
+[[multichain]]
+chainID = 43114
+name = "Avalanche"
+# Private gateway endpoint recommended
+#gateway = "https://rpc.ankr.com/avalanche"
+gateway = "https://api.avax.network/ext/bc/C/rpc"
+blkinterval = 15
+blkdelay = 15
+forwardblkdelay = 50
+maxblkdelta = 3000
+qubebridge = "0x"
+ptbridge = "0x"
+otvault = "0x"
+ptbridge2 = "0x"
+otvault2 = "0x"
+msgbus = "0x"
+wdinbox = "0x"
+xferagt = "0x"
+addgasestimateratio = 0.3

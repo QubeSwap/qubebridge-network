@@ -12,7 +12,7 @@ Home directory structure
 executor/
   - config/
       - executor.toml
-      - cbridge.toml
+      - qubebridge.toml
   - eth-ks/
       - signer.json
 ```
@@ -145,8 +145,8 @@ allow = [
 ]
 
 [sgnd]
-sgn_grpc = "cbridge-prod2.celer.network:9094"
-gateway_grpc = "cbridge-prod2.celer.network:9094"
+sgn_grpc = "qubebridge-prod2.celer.network:9094"
+gateway_grpc = "qubebridge-prod2.celer.network:9094"
 
 [db]
 url = "localhost:26257"

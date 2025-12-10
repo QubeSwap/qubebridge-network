@@ -20,7 +20,7 @@ sgnd tx [flags]
 * [sgnd tx ](sgnd_tx_.md)	 - 
 * [sgnd tx bank](sgnd_tx_bank.md)	 - Bank transaction subcommands
 * [sgnd tx broadcast](sgnd_tx_broadcast.md)	 - Broadcast transactions generated offline
-* [sgnd tx cbridge](sgnd_tx_cbridge.md)	 - cbridge transactions subcommands
+* [sgnd tx qubebridge](sgnd_tx_qubebridge.md)	 - qubebridge transactions subcommands
 * [sgnd tx decode](sgnd_tx_decode.md)	 - Decode a binary encoded transaction string
 * [sgnd tx distribution](sgnd_tx_distribution.md)	 - Distribution transactions subcommands
 * [sgnd tx encode](sgnd_tx_encode.md)	 - Encode transactions generated offline

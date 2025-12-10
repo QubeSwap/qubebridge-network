@@ -70,9 +70,9 @@ sgnd tx gov submit-proposal [flags]
 * [sgnd tx gov](sgnd_tx_gov.md)	 - Governance transactions subcommands
 * [sgnd tx gov submit-proposal balancer-update](sgnd_tx_gov_submit-proposal_balancer-update.md)	 - Submit a balancer update proposal
 * [sgnd tx gov submit-proposal blacklist-update](sgnd_tx_gov_submit-proposal_blacklist-update.md)	 - Submit a blacklist update proposal
-* [sgnd tx gov submit-proposal cbridge-asset-delete](sgnd_tx_gov_submit-proposal_cbridge-asset-delete.md)	 - Submit a cbridge asset delete proposal
-* [sgnd tx gov submit-proposal cbridge-change](sgnd_tx_gov_submit-proposal_cbridge-change.md)	 - Submit a cbridge config change proposal
-* [sgnd tx gov submit-proposal cbridge-contract-delete](sgnd_tx_gov_submit-proposal_cbridge-contract-delete.md)	 - Submit a cbridge contract delete proposal
+* [sgnd tx gov submit-proposal qubebridge-asset-delete](sgnd_tx_gov_submit-proposal_qubebridge-asset-delete.md)	 - Submit a qubebridge asset delete proposal
+* [sgnd tx gov submit-proposal qubebridge-change](sgnd_tx_gov_submit-proposal_qubebridge-change.md)	 - Submit a qubebridge config change proposal
+* [sgnd tx gov submit-proposal qubebridge-contract-delete](sgnd_tx_gov_submit-proposal_qubebridge-contract-delete.md)	 - Submit a qubebridge contract delete proposal
 * [sgnd tx gov submit-proposal farming-add-pool](sgnd_tx_gov_submit-proposal_farming-add-pool.md)	 - Submit an AddPoolProposal
 * [sgnd tx gov submit-proposal farming-add-tokens](sgnd_tx_gov_submit-proposal_farming-add-tokens.md)	 - Submit an AddTokensProposal
 * [sgnd tx gov submit-proposal farming-adjust-reward](sgnd_tx_gov_submit-proposal_farming-adjust-reward.md)	 - Submit an AdjustRewardProposal

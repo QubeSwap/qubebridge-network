@@ -1,6 +1,6 @@
 ## sgnd ops bridge submit-withdraw
 
-Submit cbridge withdraw using receiver address and seqnum
+Submit qubebridge withdraw using receiver address and seqnum
 
 ### Synopsis
 

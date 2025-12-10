@@ -31,7 +31,7 @@ Refer to [Query the parameters of the governance](./sgnd/sgnd_query_gov_params.m
 
 Note that to update these params themselves, a param change governance process is needed.
 
-We usually propose and vote on two types of governance proposals, 1. simple param changes for a certain module and 2. cbridge / pegbridge config updates. There are
+We usually propose and vote on two types of governance proposals, 1. simple param changes for a certain module and 2. qubebridge / pegbridge config updates. There are
 other types of governance proposals such as farming adjustments and software upgrades, but they happen less often.
 
 ### Param Change
@@ -63,13 +63,13 @@ Edit the subspace and key accordingly in `./gov-example/param_change_proposal.js
 
 ### Cbridge Config Update
 
-cbridge / pegbridge config updates are used to add new chains and tokens.
+qubebridge / pegbridge config updates are used to add new chains and tokens.
 
 1. Query current cbr config and submit change proposal:
 
 ```sh
-sgnd query cbridge config --home ~/.sgnd
-sgnd tx gov submit-proposal cbridge-change ./gov-example/cbridge_cbr_proposal.json --home ~/.sgnd
+sgnd query qubebridge config --home ~/.sgnd
+sgnd tx gov submit-proposal qubebridge-change ./gov-example/qubebridge_cbr_proposal.json --home ~/.sgnd
 sgnd query gov proposal {proposal_id} --home ~/.sgnd
 ```
 
@@ -83,12 +83,12 @@ echo {validator_sgn_passphrase} | sgnd tx gov vote {proposal_id} yes --home ~/.s
 
 ```sh
 sgnd query gov proposal {proposal_id} --home ~/.sgnd
-sgnd query cbridge config --home ~/.sgnd
+sgnd query qubebridge config --home ~/.sgnd
 ```
 ### SEE ALSO
 
 * [sgnd tx gov](sgnd_tx_gov.md)	 - Governance transactions subcommands
-* [sgnd tx gov submit-proposal cbridge-change](sgnd_tx_gov_submit-proposal_cbridge-change.md)	 - Submit a cbridge config change proposal
+* [sgnd tx gov submit-proposal qubebridge-change](sgnd_tx_gov_submit-proposal_qubebridge-change.md)	 - Submit a qubebridge config change proposal
 * [sgnd tx gov submit-proposal farming-add-pool](sgnd_tx_gov_submit-proposal_farming-add-pool.md)	 - Submit an AddPoolProposal
 * [sgnd tx gov submit-proposal farming-add-tokens](sgnd_tx_gov_submit-proposal_farming-add-tokens.md)	 - Submit an AddTokensProposal
 * [sgnd tx gov submit-proposal farming-adjust-reward](sgnd_tx_gov_submit-proposal_farming-adjust-reward.md)	 - Submit an AdjustRewardProposal

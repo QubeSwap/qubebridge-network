@@ -20,7 +20,7 @@ sgnd query [flags]
 * [sgnd query auth](sgnd_query_auth.md)	 - Querying commands for the auth module
 * [sgnd query bank](sgnd_query_bank.md)	 - Querying commands for the bank module
 * [sgnd query block](sgnd_query_block.md)	 - Get verified data for a the block at given height
-* [sgnd query cbridge](sgnd_query_cbridge.md)	 - Querying commands for the cbridge module
+* [sgnd query qubebridge](sgnd_query_qubebridge.md)	 - Querying commands for the qubebridge module
 * [sgnd query distribution](sgnd_query_distribution.md)	 - Querying commands for the distribution module
 * [sgnd query farming](sgnd_query_farming.md)	 - Querying commands for the farming module
 * [sgnd query gov](sgnd_query_gov.md)	 - Querying commands for the governance module

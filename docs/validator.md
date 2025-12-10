@@ -181,7 +181,7 @@ We run on Ubuntu Linux amd64 with Amazon EC2 as an example. Feel free to experim
     | sgnd.passphrase | The **Cosmos keyring passphrase** you typed in step 6 |
     | sgnd.validator_account | The **sgn-prefixed validator Cosmos SDK account** added in step 6 |
 
-11. Fill in the missing gateway URLs in `$HOME/.sgnd/config/cbridge.toml` with the corresponding JSON-RPC URLs for the chains. In general, we recommend using paid provider services instead of the public endpoints for better reliability.
+11. Fill in the missing gateway URLs in `$HOME/.sgnd/config/qubebridge.toml` with the corresponding JSON-RPC URLs for the chains. In general, we recommend using paid provider services instead of the public endpoints for better reliability.
 
 ## Run validator with systemd
 

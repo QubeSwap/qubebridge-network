@@ -1,6 +1,6 @@
 # Dynamic QubeBridge config reload
 
-Previously, adding, deleting and updating chains are done by editing `cbridge.toml` and restarting `sgnd`.
+Previously, adding, deleting and updating chains are done by editing `qubebridge.toml` and restarting `sgnd`.
 Since v1.9.1, `sgnd` supports dynamic config reload via `SIGHUP`.
 
 1. Find out the PID of `sgnd`. If run via systemd, use `systemctl`:

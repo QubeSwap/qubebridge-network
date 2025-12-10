@@ -39,11 +39,11 @@ node_uri = "tcp://localhost:26657"
 passphrase = "YOUR_sgnd.passphrase_For_Your_Keyring_Address_sgn1xxxxx"
 transactors = []
 validator_account = "YOUR_sgnd.validator_account_Keyring_Address_sgn1xxxxx"
-price_update_url = "https://cbridge-stat.s3.us-west-2.amazonaws.com/prod2/cbridge-price.json"
+price_update_url = "https://qubebridge-stat.s3.us-west-2.amazonaws.com/prod2/qubebridge-price.json"
 liveness_report_endpoint = ""
 
 [sgnd.check_interval]
 verifier = 10
-cbridge = 10
+qubebridge = 10
 slash = 60
 cbr_price = 300

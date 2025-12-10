@@ -1,4 +1,4 @@
-## sgnd query distribution cbridge-fee-share-info
+## sgnd query distribution qubebridge-fee-share-info
 
 query the QubeBridge fee share info of an account
 
@@ -7,17 +7,17 @@ query the QubeBridge fee share info of an account
 Query the QubeBridge fee share info of an account.
 
 Example:
-$ <appd> query cbridge-fee-share-info 0xd0f2596d700c9bd4d605c938e586ec67b01c7364
+$ <appd> query qubebridge-fee-share-info 0xd0f2596d700c9bd4d605c938e586ec67b01c7364
 
 ```
-sgnd query distribution cbridge-fee-share-info [delegator-address] [flags]
+sgnd query distribution qubebridge-fee-share-info [delegator-address] [flags]
 ```
 
 ### Options
 
 ```
       --height int      Use a specific height to query state at (this can error if the node is pruning state)
-  -h, --help            help for cbridge-fee-share-info
+  -h, --help            help for qubebridge-fee-share-info
       --node string     <host>:<port> to Tendermint RPC interface for this chain (default "tcp://localhost:26657")
   -o, --output string   Output format (text|json) (default "text")
 ```

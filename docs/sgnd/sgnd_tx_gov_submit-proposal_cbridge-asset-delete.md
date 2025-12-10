@@ -1,6 +1,6 @@
-## sgnd tx gov submit-proposal cbridge-asset-delete
+## sgnd tx gov submit-proposal qubebridge-asset-delete
 
-Submit a cbridge asset delete proposal
+Submit a qubebridge asset delete proposal
 
 ### Synopsis
 
@@ -20,7 +20,7 @@ proposal file is path to json like below
 
 
 ```
-sgnd tx gov submit-proposal cbridge-asset-delete [proposal-file] [flags]
+sgnd tx gov submit-proposal qubebridge-asset-delete [proposal-file] [flags]
 ```
 
 ### Options
@@ -36,7 +36,7 @@ sgnd tx gov submit-proposal cbridge-asset-delete [proposal-file] [flags]
       --gas-adjustment float     adjustment factor to be multiplied against the estimate returned by the tx simulation; if the gas limit is set manually this flag is ignored  (default 1)
       --gas-prices string        Gas prices in decimal format to determine the transaction fee (e.g. 0.1uatom)
       --generate-only            Build an unsigned transaction and write it to STDOUT (when enabled, the local Keybase is not accessible)
-  -h, --help                     help for cbridge-asset-delete
+  -h, --help                     help for qubebridge-asset-delete
       --keyring-backend string   Select keyring's backend (os|file|kwallet|pass|test|memory) (default "os")
       --keyring-dir string       The client Keyring directory; if omitted, the default 'home' directory will be used
       --ledger                   Use a connected Ledger device

@@ -21,7 +21,7 @@ sgnd query distribution [flags]
 ### SEE ALSO
 
 * [sgnd query](sgnd_query.md)	 - Querying subcommands
-* [sgnd query distribution cbridge-fee-share-info](sgnd_query_distribution_cbridge-fee-share-info.md)	 - query the QubeBridge fee share info of an account
+* [sgnd query distribution qubebridge-fee-share-info](sgnd_query_distribution_qubebridge-fee-share-info.md)	 - query the QubeBridge fee share info of an account
 * [sgnd query distribution commission](sgnd_query_distribution_commission.md)	 - Query distribution validator commission
 * [sgnd query distribution community-pool](sgnd_query_distribution_community-pool.md)	 - Query the amount of coins in the community pool
 * [sgnd query distribution params](sgnd_query_distribution_params.md)	 - Query distribution params
