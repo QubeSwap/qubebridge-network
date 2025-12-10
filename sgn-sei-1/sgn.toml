@@ -1,0 +1,49 @@
+help = false
+home = "/home/qube"
+log_format = "plain"
+log_level = "info"
+trace = false
+
+[eth]
+block_delay = 8
+chain_id = 9030
+gateway = "https://rpc.qubetics.com"
+poll_interval = 15
+signer_keystore = "/home/qube/.sgnd/eth-ks/signer.json"
+signer_passphrase = "YOUR_eth.signer_0x_Address_passphrase"
+validator_address = "YOUR_eth.validator_address_0x_Address_From_Metamask"
+
+[eth.contract_address]
+xqst = "0x6EafACBeCD3B605506e0D4Bd9B5d0C7A9328669b"
+staking = "0x1705a771B1dBaeC22beF7efE8e196642619A3faf"
+sgn = "0x48E81F6f4070965365C48C68C1420027bD7B898A"
+staking_reward = "0x979F5fBA55d720D900fff3D529ff4ea6EcB5fb96"
+govern = "0x31Bf83c82ab57252236aa06D474B178CA1133159"
+viewer = "0x98EC36917AF459C8d5E8c2E532FAf2C011c4797f"
+
+[eth.check_interval]
+validator_notice = 3
+validator_status_update = 3
+delegation_update = 2
+
+[log]
+color = false
+level = "debug"
+
+[sgnd]
+base_gas_price = 0
+chain_id = "sgn-qs-1"
+gas_adjustment = 3
+keyring_backend = "file"
+node_uri = "tcp://localhost:26657"
+passphrase = "YOUR_sgnd.passphrase_For_Your_Keyring_Address_sgn1xxxxx"
+transactors = []
+validator_account = "YOUR_sgnd.validator_account_Keyring_Address_sgn1xxxxx"
+price_update_url = "https://cbridge-stat.s3.us-west-2.amazonaws.com/prod2/cbridge-price.json"
+liveness_report_endpoint = ""
+
+[sgnd.check_interval]
+verifier = 10
+cbridge = 10
+slash = 60
+cbr_price = 300

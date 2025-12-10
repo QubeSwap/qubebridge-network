@@ -77,7 +77,6 @@ abci = "socket"
 # so the app can decide if we should keep the connection or not
 filter_peers = false
 
-
 #######################################################################
 ###                 Advanced Configuration Options                  ###
 #######################################################################
@@ -155,7 +154,7 @@ max_body_bytes = 1000000
 max_header_bytes = 1048576
 
 # The path to a file containing certificate that is used to create the HTTPS server.
-# Might be either absolute path or path related to Tendermint's config directory.
+# Migth be either absolute path or path related to tendermint's config directory.
 # If the certificate is signed by a certificate authority,
 # the certFile should be the concatenation of the server's certificate, any intermediates,
 # and the CA's certificate.
@@ -164,8 +163,8 @@ max_header_bytes = 1048576
 tls_cert_file = ""
 
 # The path to a file containing matching private key that is used to create the HTTPS server.
-# Might be either absolute path or path related to Tendermint's config directory.
-# NOTE: both tls-cert-file and tls-key-file must be present for Tendermint to create HTTPS server.
+# Migth be either absolute path or path related to tendermint's config directory.
+# NOTE: both tls_cert_file and tls_key_file must be present for Tendermint to create HTTPS server.
 # Otherwise, HTTP server is run.
 tls_key_file = ""
 
@@ -188,10 +187,10 @@ laddr = "tcp://0.0.0.0:26656"
 external_address = ""
 
 # Comma separated list of seed nodes to connect to
-seeds = "4e7075187a6df9bae7ac56bb236431c77cc12b5b@35.160.93.100:26656,fbce66df6644655a16739a8287bada6670e3d1bb@44.228.144.110:26656"
+seeds = "7258f3d71ada8e52bf302eaec7cc473916114d57@165.232.157.94:26656,a0541abc33d41c6785977f5ea89dda4f99e0a298@143.198.132.249:26656,36566fbf681f0b2799cf832f8a455b14f9f907ec@149.28.194.235:26656,6f6c1e30587fce7e6f29514c030f3a5d4660d5f5@164.92.98.151:26656,3b92fffe82bce6969560592e6b8f492de5654bb3@139.84.162.24:26656,ee964a9736ddc0d78d0321b11d9b57c6108ef2fc@192.99.151.89:26656,c53b317c307d3df9c758c7c5ef6a3d626da8ca22@95.179.197.93:26656,9689448a5ec9dc8e4c6362106886a98d7c2b724c@64.176.214.44:26656"
 
 # Comma separated list of nodes to keep persistent connections to
-persistent_peers = "4e7075187a6df9bae7ac56bb236431c77cc12b5b@35.160.93.100:26656,fbce66df6644655a16739a8287bada6670e3d1bb@44.228.144.110:26656"
+persistent_peers = "ee964a9736ddc0d78d0321b11d9b57c6108ef2fc@192.99.151.89:26656,c53b317c307d3df9c758c7c5ef6a3d626da8ca22@95.179.197.93:26656,9689448a5ec9dc8e4c6362106886a98d7c2b724c@64.176.214.44:26656"
 
 # UPNP port forwarding
 upnp = false
@@ -272,7 +271,7 @@ cache_size = 10000
 keep-invalid-txs-in-cache = false
 
 # Maximum size of a single transaction.
-# NOTE: the max size of a tx transmitted over the network is {max_tx_bytes}.
+# NOTE: the max size of a tx transmitted over the network is {max_tx_bytes} + {amino overhead}.
 max_tx_bytes = 1048576
 
 # Maximum size of a batch of transactions to send to a peer
@@ -362,7 +361,7 @@ skip_timeout_commit = false
 
 # EmptyBlocks mode and possible interval between empty blocks
 create_empty_blocks = true
-create_empty_blocks_interval = "0s"
+create_empty_blocks_interval = "30s"
 
 # Reactor sleep duration parameters
 peer_gossip_sleep_duration = "100ms"

@@ -8,7 +8,7 @@
 # The minimum gas prices a validator is willing to accept for processing a
 # transaction. A transaction's fees must meet the minimum of any denomination
 # specified in this config (e.g. 0.25token1;0.0001token2).
-minimum-gas-prices = "0.00CELR/stake"
+minimum-gas-prices = "0.00XQST/stake"
 
 # default: the last 362880 (about two weeks) states are kept in addition to every 100th state; pruning at 10 block intervals
 # nothing: all historic states will be saved, nothing will be deleted (i.e. archiving node)
@@ -139,7 +139,7 @@ address = ":8080"
 blockchain = "sgn"
 
 # Network defines the name of the network that will be returned by Rosetta.
-network = "sgn-3"
+network = "sgn-qs-1"
 
 # Retries defines the number of retries when connecting to the node before failing.
 retries = 3
