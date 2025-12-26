@@ -14,7 +14,7 @@ signer_passphrase = "YOUR_eth.signer_0x_Address_passphrase"
 validator_address = "YOUR_eth.validator_address_0x_Address_From_Metamask"
 
 [eth.contract_address]
-xqst = "0x"
+xqst = "0x40FA695BD3098356e3C3a5DcEDB967e85a2C478B"
 staking = "0x"
 sgn = "0x"
 staking_reward = "0x"
