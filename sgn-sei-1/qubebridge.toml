@@ -18,12 +18,12 @@ xferagt = "0x"
 addgasestimateratio = 0.3
 
 [[multichain]]
-chainID = 1
-name = "Ethereum Mainnet"
+chainID = 143
+name = "Monad"
 # Private gateway endpoint recommended
-gateway = "https://rpc.mevblocker.io"
-blkinterval = 15
-blkdelay = 8
+gateway = "https://monad-mainnet.drpc.org"
+blkinterval = 1
+blkdelay = 1
 forwardblkdelay = 5
 qubebridge = "0x"
 ptbridge = "0x"
@@ -32,9 +32,9 @@ ptbridge2 = "0x"
 otvault2 = "0x"
 msgbus = "0x"
 wdinbox = "0x"
+farmingrewards = "0x"
 xferagt = "0x"
-maxfeepergasgwei = 500
-addgasestimateratio = 0.6
+addgasestimateratio = 0.3
 
 [[multichain]]
 chainID = 9030
@@ -52,8 +52,28 @@ ptbridge2 = "0x"
 otvault2 = "0x"
 msgbus = "0x"
 wdinbox = "0x"
+farmingrewards = "0x"
 xferagt = "0x"
 addgasestimateratio = 0.3
+
+[[multichain]]
+chainID = 1
+name = "Ethereum Mainnet"
+# Private gateway endpoint recommended
+gateway = "https://rpc.mevblocker.io"
+blkinterval = 15
+blkdelay = 8
+forwardblkdelay = 5
+qubebridge = "0x"
+ptbridge = "0x"
+otvault = "0x"
+ptbridge2 = "0x"
+otvault2 = "0x"
+msgbus = "0x"
+wdinbox = "0x"
+xferagt = "0x"
+maxfeepergasgwei = 500
+addgasestimateratio = 0.6
 
 [[multichain]]
 chainID = 56
