@@ -2,7 +2,7 @@
 chainID = 1329
 name = "Sei"
 # Private gateway endpoint recommended
-gateway = "https://sei.drpc.org"
+gateway = "https://evm-rpc.sei-apis.com"
 blkinterval = 1
 blkdelay = 1
 forwardblkdelay = 5
@@ -21,7 +21,7 @@ addgasestimateratio = 0.3
 chainID = 143
 name = "Monad"
 # Private gateway endpoint recommended
-gateway = "https://monad-mainnet.drpc.org"
+gateway = "https://rpc.monad.xyz"
 blkinterval = 1
 blkdelay = 1
 forwardblkdelay = 5
