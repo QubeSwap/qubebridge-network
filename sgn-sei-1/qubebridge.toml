@@ -136,20 +136,20 @@ xferagt = "0xCd8C6Ca2881C67a37863Bcf59c9b155c0C4ca008"
 addgasestimateratio = 0.3
 
 [[multichain]]
-chainID = 137
-name = "Polygon"
+#chainID = 137
+#name = "Polygon"
 # Private gateway endpoint recommended
-gateway = "https://polygon-rpc.com"
-blkinterval = 15
-blkdelay = 200
-forwardblkdelay = 50
-maxblkdelta = 5000
-qubebridge = "0x2Fdd1938a44F1773aD07233309cDDB31Fb2Fec33"
-otvault = "0x"
-ptbridge = "0x"
-otvault2 = "0x"
-ptbridge2 = "0x"
-msgbus = "0x"
-wdinbox = "0x"
-xferagt = "0x"
-addgasestimateratio = 0.3
+#gateway = "https://polygon-rpc.com"
+#blkinterval = 15
+#blkdelay = 200
+#forwardblkdelay = 50
+#maxblkdelta = 5000
+#qubebridge = "0x2Fdd1938a44F1773aD07233309cDDB31Fb2Fec33"
+#otvault = "0x"
+#ptbridge = "0x"
+#otvault2 = "0x"
+#ptbridge2 = "0x"
+#msgbus = "0x"
+#wdinbox = "0x"
+#xferagt = "0x"
+#addgasestimateratio = 0.3
