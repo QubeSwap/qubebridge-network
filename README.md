@@ -1,4 +1,4 @@
-# QubeBridge-Network
+# QubeBridge - Network
 
 QubeBridge State Guardian Network (SGN) V2 [operational instructions](./docs/), genesis files, and config templates.
 
@@ -6,7 +6,6 @@ Please refer to the [instructions](./docs/) to see how to [run a validator](./do
 
 ## Current networks and configs
 
-- **Partner Testnet (Paused)**: [sgn-partnernet-1000](./sgn-partnernet-1000/)
 - **Mainnet**: [sgn-sei-1](./sgn-sei-1/)
 
 ## Frontend interfaces
