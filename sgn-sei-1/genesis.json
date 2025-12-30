@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2025-11-25T00:00:00.00000Z",
+  "genesis_time": "2025-12-30T00:00:00.00000Z",
   "chain_id": "sgn-sei-1",
   "initial_height": "1",
   "consensus_params": {
@@ -31,7 +31,7 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "sgn1xxxxxxxxxxxxxxxx",
+          "address": "sgn125sc3c8wejc9x9ut8ghmdhgxrklkzw5v952xa4",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -45,7 +45,7 @@
       },
       "balances": [
         {
-          "address": "sgn1xxxxxxxxxxxxxxxx",
+          "address": "sgn125sc3c8wejc9x9ut8ghmdhgxrklkzw5v952xa4",
           "coins": [
             {
               "denom": "XQST/stake",
@@ -90,7 +90,7 @@
           {
             "symbol": "QST",
             "chain_id": 1329,
-            "addr": "0x",
+            "addr": "0x9393139435CeF1c490118e83C33A05EF2E71Fdc6",
             "decimal": 18,
             "max_fee_amount": "2500000000000000000",
             "max_out_amt": "200000000000000000000"
@@ -98,7 +98,7 @@
 		  {
             "symbol": "USDT",
             "chain_id": 143,
-            "addr": "0x",
+            "addr": "0x0000000000000000000000000000000000000000",
             "decimal": 6,
             "max_fee_amount": "10000000000",
             "max_out_amt": "1000000000000"
@@ -106,7 +106,7 @@
           {
             "symbol": "USDC",
             "chain_id": 143,
-            "addr": "0x",
+            "addr": "0x0000000000000000000000000000000000000000",
             "decimal": 6,
             "max_fee_amount": "10000000000",
             "max_out_amt": "1000000000000"
@@ -114,7 +114,7 @@
           {
             "symbol": "QST",
             "chain_id": 143,
-            "addr": "0x",
+            "addr": "0x9393139435CeF1c490118e83C33A05EF2E71Fdc6",
             "decimal": 18,
             "max_fee_amount": "2500000000000000000",
             "max_out_amt": "200000000000000000000"
@@ -154,7 +154,7 @@
 		  {
             "symbol": "QST",
             "chain_id": 1,
-            "addr": "0x",
+            "addr": "0x9393139435CeF1c490118e83C33A05EF2E71Fdc6",
             "decimal": 18,
             "max_fee_amount": "2500000000000000000",
             "max_out_amt": "200000000000000000000"
@@ -162,7 +162,7 @@
 		  {
             "symbol": "USDT",
             "chain_id": 9030,
-            "addr": "0x",
+            "addr": "0x0000000000000000000000000000000000000000",
             "decimal": 6,
             "max_fee_amount": "10000000000",
             "max_out_amt": "1000000000000"
@@ -170,7 +170,7 @@
           {
             "symbol": "USDC",
             "chain_id": 9030,
-            "addr": "0x",
+            "addr": "0x0000000000000000000000000000000000000000",
             "decimal": 6,
             "max_fee_amount": "10000000000",
             "max_out_amt": "1000000000000"
@@ -178,7 +178,7 @@
 		  {
             "symbol": "PYUSD",
             "chain_id": 9030,
-            "addr": "0x",
+            "addr": "0x0000000000000000000000000000000000000000",
             "decimal": 6,
             "max_fee_amount": "10000000000",
             "max_out_amt": "1000000000000"
@@ -186,7 +186,7 @@
 		  {
             "symbol": "QST",
             "chain_id": 9030,
-            "addr": "0x",
+            "addr": "0x9393139435CeF1c490118e83C33A05EF2E71Fdc6",
             "decimal": 18,
             "max_fee_amount": "2500000000000000000",
             "max_out_amt": "200000000000000000000"
@@ -234,7 +234,7 @@
 		  {
             "symbol": "QST",
             "chain_id": 56,
-            "addr": "0x",
+            "addr": "0x9393139435CeF1c490118e83C33A05EF2E71Fdc6",
             "decimal": 18,
             "max_fee_amount": "2500000000000000000",
             "max_out_amt": "200000000000000000000"
@@ -258,7 +258,7 @@
 		  {
             "symbol": "QST",
             "chain_id": 43114,
-            "addr": "0x",
+            "addr": "0x9393139435CeF1c490118e83C33A05EF2E71Fdc6",
             "decimal": 18,
             "max_fee_amount": "2500000000000000000",
             "max_out_amt": "200000000000000000000"
@@ -467,31 +467,31 @@
 		"cbr_contracts": [
 		   {
             "chain_id": 1329,
-            "address": "0x"
+            "address": "0x4F04367977Eb022c1985464A59e7fb7001fB7F6e"
           },
 		  {
             "chain_id": 143,
-            "address": "0x"
-          },
-          {
-            "chain_id": 1,
-            "address": "0x"
+            "address": "0x4259665E489325806C9B3737c45AdE53a6d6990F"
           },
           {
             "chain_id": 9030,
-            "address": "0x"
+            "address": "0x2Fdd1938a44F1773aD07233309cDDB31Fb2Fec33"
+          },
+          {
+            "chain_id": 1,
+            "address": "0x2Fdd1938a44F1773aD07233309cDDB31Fb2Fec33"
           },
           {
             "chain_id": 56,
-            "address": "0x"
+            "address": "0x2Fdd1938a44F1773aD07233309cDDB31Fb2Fec33"
           },
 		  {
             "chain_id": 8453,
-            "address": "0x"
+            "address": "0x2Fdd1938a44F1773aD07233309cDDB31Fb2Fec33"
           },
           {
             "chain_id": 43114,
-            "address": "0x"
+            "address": "0x2Fdd1938a44F1773aD07233309cDDB31Fb2Fec33"
           }
         ],
         "pick_lp_size": 0,
@@ -591,7 +591,7 @@
         "claim_cooldown": "60s",
         "reward_contract": {
           "chain_id": 1329,
-          "address": "0x"
+          "address": "0x04557d047e6f2d05f5379E9665c3462965CD0fa4"
         }
       },
       "fee_pool": {
@@ -617,15 +617,15 @@
 	  "reward_contracts": [
         {
           "chain_id": 1329,
-          "address": "0x"
+          "address": "0x931765421E5970dda3e3499449A67fb03f4ebD4C"
         },
 		{
           "chain_id": 143,
-          "address": "0x"
+          "address": "0x6BFC02F34d09846dfE2555eAEB61fe7c5dd700F6"
         },
 		{
           "chain_id": 9030,
-          "address": "0x"
+          "address": "0xCd8C6Ca2881C67a37863Bcf59c9b155c0C4ca008"
         }
       ]
     },
@@ -688,7 +688,7 @@
         "min_signed_per_window": "0.500000000000000000",
         "staking_contract": {
           "chain_id": 1329,
-          "address": "0x"
+          "address": "0x95c37647e3c9a262167A4C00ebe2cb8212B833F3"
         }
       },
       "slashes": [],
@@ -701,12 +701,12 @@
       "syncer": null,
       "validators": [
         {
-          "eth_address": "0x",
-          "eth_signer": "0x",
-          "sgn_address": "sgn1xxxxxxxxxxxxxxxx",
+          "eth_address": "0x0000000000000000000000000000000000000000",
+          "eth_signer": "0x4dB7FF09dD12Fe368C0b58e791C1722Ebe78Ab3",
+          "sgn_address": "sgn125sc3c8wejc9x9ut8ghmdhgxrklkzw5v952xa4",
           "consensus_pubkey": {
             "@type": "/cosmos.crypto.ed25519.PubKey",
-            "key": ""
+            "key": "iCFCHLJdjGlF4jfbqEGAJYcDzwL8R0r4KhnmwoBrIjs="
           },
           "status": "BOND_STATUS_BONDED",
           "tokens": "1000000000000",
