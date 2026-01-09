@@ -690,8 +690,7 @@
     },
     "staking": {
       "params": {
-        "syncer_duration": "120",
-		"syncer_candidates": []
+        "syncer_duration": "120"
       },
       "syncer": null,
       "validators": [
