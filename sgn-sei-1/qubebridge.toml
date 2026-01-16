@@ -2,11 +2,10 @@
 chainID = 1329
 name = "Sei"
 # Private gateway endpoint recommended
-#gateway = "https://evm-rpc.sei-apis.com"
-gateway = "https://sei.drpc.org"
-blkinterval = 15
-blkdelay = 20
-forwardblkdelay = 50
+gateway = "https://evm-rpc.sei-apis.com"
+blkinterval = 2
+blkdelay = 5
+forwardblkdelay = 5
 qubebridge = "0x4F04367977Eb022c1985464A59e7fb7001fB7F6e"
 otvault = "0xCd8C6Ca2881C67a37863Bcf59c9b155c0C4ca008"
 ptbridge = "0xCFC6A070404c068f21Bc675B03F7c45331b7Fbe1"
@@ -23,9 +22,9 @@ chainID = 143
 name = "Monad"
 # Private gateway endpoint recommended
 gateway = "https://rpc.monad.xyz"
-blkinterval = 15
-blkdelay = 20
-forwardblkdelay = 50
+blkinterval = 2
+blkdelay = 5
+forwardblkdelay = 5
 qubebridge = "0x4259665E489325806C9B3737c45AdE53a6d6990F"
 otvault = "0x04557d047e6f2d05f5379E9665c3462965CD0fa4"
 ptbridge = "0x41da03e4472d93BBE150F3a552a28Dca8849fe0C"
@@ -42,9 +41,9 @@ chainID = 9030
 name = "Qubetics Mainnet"
 # Private gateway endpoint recommended
 gateway = "https://rpc.qubetics.com"
-blkinterval = 15
-blkdelay = 20
-forwardblkdelay = 50
+blkinterval = 5
+blkdelay = 6
+forwardblkdelay = 5
 qubebridge = "0x2Fdd1938a44F1773aD07233309cDDB31Fb2Fec33"
 otvault = "0x8250FbC7704cF59beAB4E02A89E84688d941d899"
 ptbridge = "0x95c37647e3c9a262167A4C00ebe2cb8212B833F3"
