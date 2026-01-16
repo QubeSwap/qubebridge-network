@@ -7,8 +7,7 @@ trace = false
 [eth]
 block_delay = 20
 chain_id = 1329
-#gateway = "https://evm-rpc.sei-apis.com"
-gateway = "https://sei.drpc.org"
+gateway = "https://evm-rpc.sei-apis.com"
 poll_interval = 15
 signer_keystore = "/home/qube/.sgnd/eth-ks/signer.json"
 signer_passphrase = "YOUR_eth.signer_0x_Address_passphrase"
