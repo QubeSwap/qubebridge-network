@@ -693,7 +693,7 @@
       "syncer": null,
       "validators": [
         {
-          "eth_address": "0x0000000000000000000000000000000000000000",
+          "eth_address": "0xBf774209114b32662916AF803941eA35569A858E",
           "eth_signer": "0x11a2E53e127f64bf9ccEdea2855B1Cb3aF5C1a7A",
           "sgn_address": "sgn16743jvu7kma9shkcsq5lcy7jzkmvnk6f60lum9",
           "consensus_pubkey": {
