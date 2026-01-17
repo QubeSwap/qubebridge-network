@@ -5,10 +5,10 @@ log_level = "info"
 trace = false
 
 [eth]
-block_delay = 20
+block_delay = 3
 chain_id = 1329
 gateway = "https://evm-rpc.sei-apis.com"
-poll_interval = 15
+poll_interval = 1
 signer_keystore = "/home/qube/.sgnd/eth-ks/signer.json"
 signer_passphrase = "YOUR_eth.signer_0x_Address_passphrase"
 validator_address = "YOUR_eth.validator_address_0x_Address_From_Metamask"
