@@ -5,6 +5,7 @@ log_level = "info"
 trace = false
 
 [eth]
+max_block_delta = 500
 block_delay = 3
 chain_id = 1329
 gateway = "https://evm-rpc.sei-apis.com"
