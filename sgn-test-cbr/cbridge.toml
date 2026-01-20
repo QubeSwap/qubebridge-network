@@ -1,0 +1,154 @@
+[[multichain]]
+chainID = 1329
+name = "Sei"
+# Private gateway endpoint recommended
+gateway = "https://evm-rpc.sei-apis.com"
+blkinterval = 3
+blkdelay = 5
+forwardblkdelay = 5
+cbridge = "0x4F04367977Eb022c1985464A59e7fb7001fB7F6e"
+otvault = "0xCd8C6Ca2881C67a37863Bcf59c9b155c0C4ca008"
+ptbridge = "0xCFC6A070404c068f21Bc675B03F7c45331b7Fbe1"
+otvault2 = "0x7eB627C4CCCd1279a749c15A7F7F30D83FABADC6"
+ptbridge2 = "0x6BFC02F34d09846dfE2555eAEB61fe7c5dd700F6"
+msgbus = "0x16fb89911d7B87daB56510dCB91C2027f9B020b9"
+wdinbox = "0x83F77ec45AECd6AaA975D43d7710c5349A078B71"
+xferagt = "0xae5095cF0999FeAeF62A07bF0465f4835944D697"
+farmingrewards = "0x931765421E5970dda3e3499449A67fb03f4ebD4C"
+addgasestimateratio = 0.3
+
+[[multichain]]
+chainID = 143
+name = "Monad"
+# Private gateway endpoint recommended
+gateway = "https://rpc.monad.xyz"
+blkinterval = 3
+blkdelay = 5
+forwardblkdelay = 5
+cbridge = "0x4259665E489325806C9B3737c45AdE53a6d6990F"
+otvault = "0x04557d047e6f2d05f5379E9665c3462965CD0fa4"
+ptbridge = "0x41da03e4472d93BBE150F3a552a28Dca8849fe0C"
+otvault2 = "0x38f1005C8532b154d4387592b76cEAFF5637accE"
+ptbridge2 = "0x4F04367977Eb022c1985464A59e7fb7001fB7F6e"
+msgbus = "0xCd8C6Ca2881C67a37863Bcf59c9b155c0C4ca008"
+wdinbox = "0xCFC6A070404c068f21Bc675B03F7c45331b7Fbe1"
+xferagt = "0x7eB627C4CCCd1279a749c15A7F7F30D83FABADC6"
+farmingrewards = "0x6BFC02F34d09846dfE2555eAEB61fe7c5dd700F6"
+addgasestimateratio = 0.3
+
+[[multichain]]
+chainID = 9030
+name = "Qubetics Mainnet"
+# Private gateway endpoint recommended
+gateway = "https://rpc.qubetics.com"
+blkinterval = 7
+blkdelay = 9
+forwardblkdelay = 5
+cbridge = "0x2Fdd1938a44F1773aD07233309cDDB31Fb2Fec33"
+otvault = "0x8250FbC7704cF59beAB4E02A89E84688d941d899"
+ptbridge = "0x95c37647e3c9a262167A4C00ebe2cb8212B833F3"
+otvault2 = "0x4259665E489325806C9B3737c45AdE53a6d6990F"
+ptbridge2 = "0x04557d047e6f2d05f5379E9665c3462965CD0fa4"
+msgbus = "0x41da03e4472d93BBE150F3a552a28Dca8849fe0C"
+wdinbox = "0x38f1005C8532b154d4387592b76cEAFF5637accE"
+xferagt = "0x4F04367977Eb022c1985464A59e7fb7001fB7F6e"
+farmingrewards = "0xCd8C6Ca2881C67a37863Bcf59c9b155c0C4ca008"
+addgasestimateratio = 0.3
+
+[[multichain]]
+chainID = 1
+name = "Ethereum Mainnet"
+# Private gateway endpoint recommended
+gateway = "https://rpc.mevblocker.io"
+blkinterval = 15
+blkdelay = 8
+forwardblkdelay = 5
+cbridge = "0x2Fdd1938a44F1773aD07233309cDDB31Fb2Fec33"
+otvault = "0x8250FbC7704cF59beAB4E02A89E84688d941d899"
+ptbridge = "0x95c37647e3c9a262167A4C00ebe2cb8212B833F3"
+otvault2 = "0x4259665E489325806C9B3737c45AdE53a6d6990F"
+ptbridge2 = "0x04557d047e6f2d05f5379E9665c3462965CD0fa4"
+msgbus = "0x41da03e4472d93BBE150F3a552a28Dca8849fe0C"
+wdinbox = "0x38f1005C8532b154d4387592b76cEAFF5637accE"
+xferagt = "0x4F04367977Eb022c1985464A59e7fb7001fB7F6e"
+maxfeepergasgwei = 500
+addgasestimateratio = 0.6
+
+[[multichain]]
+chainID = 56
+name = "BSC"
+# Private gateway endpoint recommended
+gateway = "https://bsc-dataseed.binance.org"
+blkinterval = 15
+blkdelay = 20
+forwardblkdelay = 50
+maxblkdelta = 5000
+cbridge = "0x2Fdd1938a44F1773aD07233309cDDB31Fb2Fec33"
+otvault = "0x95c37647e3c9a262167A4C00ebe2cb8212B833F3"
+ptbridge = "0x4259665E489325806C9B3737c45AdE53a6d6990F"
+otvault2 = "0x04557d047e6f2d05f5379E9665c3462965CD0fa4"
+ptbridge2 = "0x41da03e4472d93BBE150F3a552a28Dca8849fe0C"
+msgbus = "0x38f1005C8532b154d4387592b76cEAFF5637accE"
+wdinbox = "0x4F04367977Eb022c1985464A59e7fb7001fB7F6e"
+xferagt = "0xCd8C6Ca2881C67a37863Bcf59c9b155c0C4ca008"
+addgasgwei = 2
+mingasgwei = 5
+addgasestimateratio = 0.3
+
+[[multichain]]
+chainID = 8453
+name = "Base Mainnet"
+# Private gateway endpoint recommended
+gateway = "https://mainnet.base.org"
+blkinterval = 30
+blkdelay = 15
+forwardblkdelay = 200
+maxblkdelta = 5000
+cbridge = "0x2Fdd1938a44F1773aD07233309cDDB31Fb2Fec33"
+otvault = "0x8250FbC7704cF59beAB4E02A89E84688d941d899"
+ptbridge = "0x95c37647e3c9a262167A4C00ebe2cb8212B833F3"
+otvault2 = "0x4259665E489325806C9B3737c45AdE53a6d6990F"
+ptbridge2 = "0x41da03e4472d93BBE150F3a552a28Dca8849fe0C"
+msgbus = "0x38f1005C8532b154d4387592b76cEAFF5637accE"
+wdinbox = "0x4F04367977Eb022c1985464A59e7fb7001fB7F6e"
+xferagt = "0xCd8C6Ca2881C67a37863Bcf59c9b155c0C4ca008"
+addgasestimateratio = 0.3
+
+[[multichain]]
+chainID = 43114
+name = "Avalanche"
+# Private gateway endpoint recommended
+#gateway = "https://rpc.ankr.com/avalanche"
+gateway = "https://api.avax.network/ext/bc/C/rpc"
+blkinterval = 15
+blkdelay = 15
+forwardblkdelay = 50
+maxblkdelta = 3000
+cbridge = "0x2Fdd1938a44F1773aD07233309cDDB31Fb2Fec33"
+otvault = "0x8250FbC7704cF59beAB4E02A89E84688d941d899"
+ptbridge = "0x95c37647e3c9a262167A4C00ebe2cb8212B833F3"
+otvault2 = "0x4259665E489325806C9B3737c45AdE53a6d6990F"
+ptbridge2 = "0x41da03e4472d93BBE150F3a552a28Dca8849fe0C"
+msgbus = "0x38f1005C8532b154d4387592b76cEAFF5637accE"
+wdinbox = "0x4F04367977Eb022c1985464A59e7fb7001fB7F6e"
+xferagt = "0xCd8C6Ca2881C67a37863Bcf59c9b155c0C4ca008"
+addgasestimateratio = 0.3
+
+[[multichain]]
+#chainID = 137
+#name = "Polygon"
+# Private gateway endpoint recommended
+#gateway = "https://polygon-rpc.com"
+#blkinterval = 15
+#blkdelay = 200
+#forwardblkdelay = 50
+#maxblkdelta = 5000
+#cbridge = "0x2Fdd1938a44F1773aD07233309cDDB31Fb2Fec33"
+#otvault = "0x"
+#ptbridge = "0x"
+#otvault2 = "0x"
+#ptbridge2 = "0x"
+#msgbus = "0x"
+#wdinbox = "0x"
+#xferagt = "0x"
+#addgasestimateratio = 0.3

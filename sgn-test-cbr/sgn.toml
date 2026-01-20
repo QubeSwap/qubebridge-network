@@ -1,0 +1,49 @@
+help = false
+home = "/home/qube"
+log_format = "plain"
+log_level = "info"
+trace = false
+
+[eth]
+block_delay = 5
+chain_id = 1329
+gateway = "https://evm-rpc.sei-apis.com"
+poll_interval = 3
+signer_keystore = "/home/qube/.sgnd/eth-ks/signer.json"
+signer_passphrase = "YOUR_eth.signer_0x_Address_passphrase"
+validator_address = "YOUR_eth.validator_address_0x_Address_From_Metamask"
+
+[eth.contract_address]
+celr = "0x40FA695BD3098356e3C3a5DcEDB967e85a2C478B"
+staking = "0x95c37647e3c9a262167A4C00ebe2cb8212B833F3"
+sgn = "0x4259665E489325806C9B3737c45AdE53a6d6990F"
+staking_reward = "0x04557d047e6f2d05f5379E9665c3462965CD0fa4"
+govern = "0x41da03e4472d93BBE150F3a552a28Dca8849fe0C"
+viewer = "0x38f1005C8532b154d4387592b76cEAFF5637accE"
+
+[eth.check_interval]
+validator_notice = 3
+validator_status_update = 3
+delegation_update = 2
+
+[log]
+color = false
+level = "debug"
+
+[sgnd]
+base_gas_price = 0
+chain_id = "sgn-sei-1"
+gas_adjustment = 3
+keyring_backend = "file"
+node_uri = "tcp://localhost:26657"
+passphrase = "YOUR_sgnd.passphrase_For_Your_Keyring_Address_sgn1xxxxx"
+transactors = []
+validator_account = "YOUR_sgnd.validator_account_Keyring_Address_sgn1xxxxx"
+price_update_url = ""
+liveness_report_endpoint = ""
+
+[sgnd.check_interval]
+verifier = 10
+cbridge = 10
+slash = 60
+cbr_price = 300
