@@ -418,6 +418,14 @@
             "const_a": 5000
           },
 		  {
+            "chid1": 143,
+            "chid2": 8453,
+            "weight1": 100,
+            "fee1to2": 400,
+            "fee2to1": 400,
+            "const_a": 5000
+          },
+		  {
             "chid1": 1329,
             "chid2": 8453,
             "weight1": 100,
@@ -585,7 +593,6 @@
         "community_tax": "0.000000000000000000",
         "base_proposer_reward": "0.001000000000000000",
         "bonus_proposer_reward": "0.000500000000000000",
-		"withdraw_addr_enabled": false,
         "claim_cooldown": "60s",
         "reward_contract": {
           "chain_id": 1329,
@@ -645,7 +652,8 @@
     },
     "message": {
       "params": {
-        "trigger_sign_cooldown": "60s"
+        "trigger_sign_cooldown": "60s",
+		"message_expired_time": "259200s"
       },
       "message_buses": []
     },
