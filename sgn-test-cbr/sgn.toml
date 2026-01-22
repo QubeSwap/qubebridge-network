@@ -14,12 +14,13 @@ signer_passphrase = "YOUR_eth.signer_0x_Address_passphrase"
 validator_address = "YOUR_eth.validator_address_0x_Address_From_Metamask"
 
 [eth.contract_address]
+# celr = xqst
 celr = "0x40FA695BD3098356e3C3a5DcEDB967e85a2C478B"
-staking = "0x95c37647e3c9a262167A4C00ebe2cb8212B833F3"
-sgn = "0x4259665E489325806C9B3737c45AdE53a6d6990F"
-staking_reward = "0x04557d047e6f2d05f5379E9665c3462965CD0fa4"
-govern = "0x41da03e4472d93BBE150F3a552a28Dca8849fe0C"
-viewer = "0x38f1005C8532b154d4387592b76cEAFF5637accE"
+staking = "0x1D6Bc702AC82176BD5B52629cc18f1B755f67BEF"
+sgn = "0x885d7556F25349B3d683FE15eb8cd3f30335a5E4"
+staking_reward = "0x682b64Df622E0c685576007be0a1E968288D0B23"
+govern = "0x72Be25A5AFDee2384b2e88f1DC32a7CDbF0F7D4c"
+viewer = "0x827348F1312E30a4B7031E84Ba70711E373D3D22"
 
 [eth.check_interval]
 validator_notice = 3
