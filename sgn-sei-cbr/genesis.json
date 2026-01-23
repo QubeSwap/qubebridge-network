@@ -1,6 +1,6 @@
 {
   "genesis_time": "2026-01-23T00:00:00.00000Z",
-  "chain_id": "sgn-sei-cbr",
+  "chain_id": "sgn-sei-1",
   "initial_height": "1",
   "consensus_params": {
     "block": {
